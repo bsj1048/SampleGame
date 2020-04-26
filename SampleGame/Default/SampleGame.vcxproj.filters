@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{3017b7fe-21cb-4456-a99a-404ef37c1ff1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Header">
+      <UniqueIdentifier>{0271acbb-3ae7-4220-91db-429f95bcaf90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Core">
+      <UniqueIdentifier>{0da7a00f-a2e3-4efc-9c77-14e3db4da28e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager">
+      <UniqueIdentifier>{125b7ad4-09d1-49f1-a89b-5005f621f937}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject">
+      <UniqueIdentifier>{d9fee55b-5a38-4519-bd7a-a6955081cf40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Component">
+      <UniqueIdentifier>{4c55365f-90bb-49b7-b89c-d3688af6f4a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Component\Transform">
+      <UniqueIdentifier>{eff457cf-ebc8-4f86-91c6-7271e50be851}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene">
+      <UniqueIdentifier>{7592efb0-da7e-44d7-9afe-6d044fc21775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\Scene_1">
+      <UniqueIdentifier>{6418b0ca-b9d8-402e-ade3-653491afd016}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Wall">
+      <UniqueIdentifier>{97e04466-ae55-4ed6-b2a1-49fea64f2675}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Player">
+      <UniqueIdentifier>{08fc69c8-3294-4e60-9b30-3123af4bcc5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Player\GameClass">
+      <UniqueIdentifier>{bdb42870-8ed1-4110-b943-129534f13aaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Player\GameClass\Warrior">
+      <UniqueIdentifier>{656c1e37-7410-4de9-a5fc-661e78f01aab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Component\Navigation">
+      <UniqueIdentifier>{faefa367-d49a-46e6-a52c-aa50d969ecd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Component\Navigation\Cell">
+      <UniqueIdentifier>{5cb6edb3-9ded-4777-81d9-4c26fb91915a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Scene\SceneTitle">
+      <UniqueIdentifier>{fb4f0d98-d961-40a6-b88a-86e2df0612f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Monster">
+      <UniqueIdentifier>{2ae50f62-8715-42f3-b937-0a2efdae3d9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Player\GameClass\Mage">
+      <UniqueIdentifier>{9d4e1bb5-4f83-49dd-ae12-6b2f22258507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\KeyBoard">
+      <UniqueIdentifier>{57f90cb1-b673-45bf-8bba-acbf5cf854e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\Object">
+      <UniqueIdentifier>{d2be0386-0f61-4d0b-96ba-b6f5586e35bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\Respawn">
+      <UniqueIdentifier>{0027b5a1-62b0-4ea7-a4be-3e9b662c00cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Manager\Observer">
+      <UniqueIdentifier>{3a02c207-45ca-4ef6-84a7-7eb258b4ef51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Component\StateHandler">
+      <UniqueIdentifier>{9cb415e1-35a4-4608-b3a5-12dc986f5de3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Component\StateHandler\State">
+      <UniqueIdentifier>{23e8a33e-368c-4c20-a14e-21c358f82004}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.GameObject\Monster\State">
+      <UniqueIdentifier>{eca8024c-a75a-45d2-8a3c-761d6d893631}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Macro.h">
+      <Filter>98.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Core.h">
+      <Filter>00.Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Define.h">
+      <Filter>98.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Extern.h">
+      <Filter>98.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\GameObject.h">
+      <Filter>02.GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Component.h">
+      <Filter>03.Component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Transform.h">
+      <Filter>03.Component\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Functor.h">
+      <Filter>98.Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Warrior.h">
+      <Filter>02.GameObject\Player\GameClass\Warrior</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Scene.h">
+      <Filter>01.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Scene_1.h">
+      <Filter>01.Scene\Scene_1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Wall.h">
+      <Filter>02.GameObject\Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\GameClass.h">
+      <Filter>02.GameObject\Player\GameClass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Player.h">
+      <Filter>02.GameObject\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Navigation.h">
+      <Filter>03.Component\Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Cell.h">
+      <Filter>03.Component\Navigation\Cell</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\SceneTitle.h">
+      <Filter>01.Scene\SceneTitle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Mage.h">
+      <Filter>02.GameObject\Player\GameClass\Mage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Monster.h">
+      <Filter>02.GameObject\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\KeyBoardManager.h">
+      <Filter>97.Manager\KeyBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\ObjectManager.h">
+      <Filter>97.Manager\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\RespawnManager.h">
+      <Filter>97.Manager\Respawn</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UIManager.h">
+      <Filter>97.Manager\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\SubjectManager.h">
+      <Filter>97.Manager\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Observer.h">
+      <Filter>97.Manager\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\StateHandler.h">
+      <Filter>03.Component\StateHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\State.h">
+      <Filter>03.Component\StateHandler\State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\StateMonsterIdle.h">
+      <Filter>02.GameObject\Monster\State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\StateMonsterSearch.h">
+      <Filter>02.GameObject\Monster\State</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Core.cpp">
+      <Filter>00.Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\GameObject.cpp">
+      <Filter>02.GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Component.cpp">
+      <Filter>03.Component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Transform.cpp">
+      <Filter>03.Component\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Warrior.cpp">
+      <Filter>02.GameObject\Player\GameClass\Warrior</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Scene.cpp">
+      <Filter>01.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Scene_1.cpp">
+      <Filter>01.Scene\Scene_1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Wall.cpp">
+      <Filter>02.GameObject\Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\GameClass.cpp">
+      <Filter>02.GameObject\Player\GameClass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Player.cpp">
+      <Filter>02.GameObject\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Navigation.cpp">
+      <Filter>03.Component\Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Cell.cpp">
+      <Filter>03.Component\Navigation\Cell</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\SceneTitle.cpp">
+      <Filter>01.Scene\SceneTitle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Mage.cpp">
+      <Filter>02.GameObject\Player\GameClass\Mage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Monster.cpp">
+      <Filter>02.GameObject\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\KeyBoardManager.cpp">
+      <Filter>97.Manager\KeyBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\ObjectManager.cpp">
+      <Filter>97.Manager\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\RespawnManager.cpp">
+      <Filter>97.Manager\Respawn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\UIManager.cpp">
+      <Filter>97.Manager\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\SubjectManager.cpp">
+      <Filter>97.Manager\Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Observer.cpp">
+      <Filter>97.Manager\Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\StateHandler.cpp">
+      <Filter>03.Component\StateHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\State.cpp">
+      <Filter>03.Component\StateHandler\State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\StateMonsterIdle.cpp">
+      <Filter>02.GameObject\Monster\State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\StateMonsterSearch.cpp">
+      <Filter>02.GameObject\Monster\State</Filter>
+    </ClCompile>
+    <ClCompile Include="SampleGame.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>99.Default</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
